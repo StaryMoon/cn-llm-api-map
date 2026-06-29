@@ -1,20 +1,22 @@
 # 中文 LLM API 入口地图
 
+> 常用大模型 API、控制台、聚合平台和模型托管入口的中文整理。
+
 ![preview](assets/preview.png)
 
-做 LLM 应用最烦的不是写第一行代码，而是控制台、文档、模型名、价格、额度、地区限制全都散在不同地方。这个仓库就是一张入口地图，少讲概念，多给能点开的地方。
+## Overview
 
-API 平台不要只看模型分数。真正做项目时，账单、限流、日志、地区和 key 管理经常比榜单名次更早把人卡死。
+整理常用大模型 API 平台、聚合平台和模型托管入口，方便快速比较模型、文档、控制台和定价入口。
 
-## 先看这几个
+本仓库只保留与主题直接相关、入口稳定、说明清晰的资源。优先收录官方文档、主流开源仓库、长期可访问的产品页面和常用工具链。
+
+## Key Resources
 
 OpenAI Platform / Anthropic Console / Google AI Studio / DeepSeek Platform
 
-先把 OpenAI、Anthropic、Gemini、DeepSeek 和一个聚合平台的控制台都打开看一遍。
+## Resources
 
-## 入口
-
-| 名称 | 我为什么留它 |
+| Resource | Use case |
 | --- | --- |
 | [OpenAI Platform](https://platform.openai.com/docs/overview) | OpenAI API 文档和控制台入口。 |
 | [Anthropic Console](https://console.anthropic.com/) | Claude API 控制台入口。 |
@@ -25,25 +27,29 @@ OpenAI Platform / Anthropic Console / Google AI Studio / DeepSeek Platform
 | [Hugging Face Models](https://huggingface.co/models) | 模型权重、demo、社区模型搜索入口。 |
 | [Replicate](https://replicate.com/) | 托管模型 API 和 demo 平台。 |
 
-## 我的使用顺序
+## Recommended Path
 
-- 先确定模型用途：文本、代码、视觉、语音或 embedding。
-- 把控制台、定价页、API 文档一起收藏。
-- 先写最小 demo，再接入生产。
+1. 先确定模型用途：文本、代码、视觉、语音或 embedding。
+2. 把控制台、定价页、API 文档一起收藏。
+3. 先写最小 demo，再接入生产。
 
-## 别踩坑
+## Notes
 
-- 不要忽视地区、支付方式、速率限制。
-- 聚合平台方便，但生产场景要评估稳定性和隐私。
+- 优先确认地区、支付方式、速率限制和账单策略。
+- 生产场景需评估聚合平台的稳定性、隐私边界和服务可用性。
 
-## 截图来源
+## Screenshot
 
-这张图来自公开页面：[https://openrouter.ai/](https://openrouter.ai/)。如果页面改版，截图可能会和当前官网略有出入。
+Source: [https://openrouter.ai/](https://openrouter.ai/)
 
-## 维护方式
+## Data
 
-链接数据放在 [`data/links.json`](data/links.json)。我倾向于少而准：入口失效就换，说明过时就改，不把这里做成什么都往里塞的大杂烩。
+Structured resource data is available in [`data/links.json`](data/links.json).
+
+## Contributing
+
+PRs are welcome for official links, documentation updates, screenshot refreshes, and concise use-case descriptions. Please avoid mirrors, cracked software, referral links, and unverified downloads.
 
 ## License
 
-MIT. 第三方商标、页面截图和网站内容归原权利方所有；本仓库只做中文导航和使用笔记。
+MIT. Third-party trademarks, screenshots, and website content belong to their respective owners.
