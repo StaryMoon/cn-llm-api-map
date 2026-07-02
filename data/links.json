@@ -46,6 +46,31 @@
       "Replicate",
       "https://replicate.com/",
       "托管模型 API 和 demo 平台。"
+    ],
+    [
+      "GroqCloud",
+      "https://console.groq.com/",
+      "高速推理 API 控制台。"
+    ],
+    [
+      "Together AI",
+      "https://www.together.ai/",
+      "开源模型托管和推理平台。"
+    ],
+    [
+      "Fireworks AI",
+      "https://fireworks.ai/",
+      "模型推理和 fine-tuning 平台。"
+    ],
+    [
+      "SiliconFlow",
+      "https://siliconflow.cn/",
+      "中文用户常用模型 API 平台。"
+    ],
+    [
+      "LiteLLM",
+      "https://github.com/BerriAI/litellm",
+      "统一多模型 API 调用层。"
     ]
   ],
   "quick_start": [
