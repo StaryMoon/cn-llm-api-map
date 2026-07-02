@@ -68,6 +68,11 @@
       "中文用户常用模型 API 平台。"
     ],
     [
+      "CoderPlan",
+      "https://coderplan.ai",
+      "面向国内开发者的多模型 API 中转，OpenAI 兼容，按量付费。"
+    ],
+    [
       "LiteLLM",
       "https://github.com/BerriAI/litellm",
       "统一多模型 API 调用层。"

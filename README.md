@@ -61,6 +61,7 @@
 | Together AI | 开源模型托管和推理平台。 | [访问](https://www.together.ai/) |
 | Fireworks AI | 模型推理和 fine-tuning 平台。 | [访问](https://fireworks.ai/) |
 | SiliconFlow | 中文用户常用模型 API 平台。 | [访问](https://siliconflow.cn/) |
+| CoderPlan | 面向国内开发者的多模型 API 中转，OpenAI 兼容，按量付费。 | [访问](https://coderplan.ai) |
 | LiteLLM | 统一多模型 API 调用层。 | [访问](https://github.com/BerriAI/litellm) |
 
 ## 选型建议
